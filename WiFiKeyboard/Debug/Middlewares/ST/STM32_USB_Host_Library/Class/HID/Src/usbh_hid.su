@@ -1,0 +1,17 @@
+usbh_hid.c:488:27:USBH_HID_SOFProcess	0	static
+usbh_hid.c:247:27:USBH_HID_InterfaceDeInit	16	static
+usbh_hid.c:137:27:USBH_HID_InterfaceInit	48	static
+usbh_hid.c:519:20:USBH_HID_GetHIDReportDescriptor	16	static
+usbh_hid.c:549:20:USBH_HID_GetHIDDescriptor	16	static
+usbh_hid.c:571:20:USBH_HID_SetIdle	4	static
+usbh_hid.c:600:20:USBH_HID_SetReport	12	static
+usbh_hid.c:631:20:USBH_HID_GetReport	12	static
+usbh_hid.c:658:20:USBH_HID_SetProtocol	0	static
+usbh_hid.c:281:27:USBH_HID_ClassRequest	16	static
+usbh_hid.c:706:17:USBH_HID_GetDeviceType	0	static
+usbh_hid.c:736:9:USBH_HID_GetPollInterval	0	static
+usbh_hid.c:761:6:USBH_HID_FifoInit	0	static
+usbh_hid.c:778:10:USBH_HID_FifoRead	20	static
+usbh_hid.c:817:10:USBH_HID_FifoWrite	20	static
+usbh_hid.c:853:13:USBH_HID_EventCallback	0	static
+usbh_hid.c:360:27:USBH_HID_Process	32	static

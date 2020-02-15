@@ -1,0 +1,10 @@
+20:42:10 **** Build of configuration Debug for project keyboardHost ****
+make -j4 all 
+arm-none-eabi-size   keyboardHost.elf 
+   text	   data	    bss	    dec	    hex	filename
+  28052	    152	   3376	  31580	   7b5c	keyboardHost.elf
+Finished building: default.size.stdout
+ 
+
+20:42:11 Build Finished. 0 errors, 0 warnings. (took 670ms)
+
