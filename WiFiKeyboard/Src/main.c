@@ -99,11 +99,6 @@ int main(void)
 
   /* USER CODE END 2 */
 
-  /* Infinite loop */
-  /* USER CODE BEGIN WHILE */
-//  uint32_t timestamp = HAL_GetTick();
-//  uint8_t msg[] = "0\n   ";
-
   while (1)
   {
 
@@ -117,13 +112,10 @@ int main(void)
 
     	if(k_pinfo != NULL){
     		/* Sending decoded ascii key. */
-//      		uint8_t c = USBH_HID_GetASCIICode(k_pinfo);
-//    		UART_TX(&c, 1);
-//
-//    		UART_TX(k_pinfo->keys, 1);
+    		char buff[] = "\n   ";
+    		buff[1] = USBH_HID_GetASCIICode(k_pinfo);
+    		UART_TX((uint8_t*)buff, sizeof(buff));
 
-//    		c = '\n';
-//    		UART_TX(&c, 1);
 
     		/* Sending keyboard report */
     		UART_TX((uint8_t*)k_pinfo, sizeof(HID_KEYBD_Info_TypeDef));
